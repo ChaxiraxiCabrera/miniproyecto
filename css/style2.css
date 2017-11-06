@@ -1,0 +1,308 @@
+body {
+    font-family: 'Lato', Serif;
+    font-size: 14px;
+}
+
+/*ETIQUETAS*/
+nav {
+    height: 113px;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+}
+
+header {
+    height: 980px;
+    background-image: url("../images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section {
+    height: 1080px;
+}
+
+footer {
+    height: 116px;
+    background-color: rgb(26,28,39);
+}
+
+/* formato texto */
+
+h1, h2, h3, h4 {
+    margin-bottom: 0;
+    font-family: 'Raleway', Serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 90px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 72px;
+}
+
+h3, h4 {
+    font-weight: normal;
+    text-transform: initial;
+}
+
+h3 {
+    margin-top: 0;
+    font-family: 'Playfair Display', Serif;
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+    color: #a1b1bc;
+    margin: 0;
+}
+
+p {
+    margin-top: 46px;
+}
+
+header h2 {
+    font-size: 36px;
+    font-weight: normal;
+    font-family: 'Playfair Display', Serif;
+    text-transform: initial;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-family: 'Playfair Display', Serif;
+    font-size: 24px;
+    color: #a1b1bc;
+}
+
+footer p {
+    color: #a1b1bc;
+}
+
+/*CLASES */
+
+/*tamaños */
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header-container{
+    display: inline-block;
+}
+
+.nav-container {
+    margin-top: 30px;
+}
+
+.odd .div-texto {
+    float: left;
+}
+
+.odd .div-imagen {
+    float: right;
+}
+
+.even .div-texto {
+    float: right;
+}
+
+.even .div-imagen {
+    float: left;
+}
+
+.div-texto{
+    padding-top: 332px;
+    box-sizing: border-box;
+}
+
+.div-imagen {
+    padding-top: 377px;
+    box-sizing: border-box;
+}
+
+.header-container {
+    margin-top: 316px;
+    width: 700px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1030px;
+    padding: 400px 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.footer-container {
+    padding-top: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.intro {
+    height: 506px;
+    padding: 120px 0;
+    text-align: center;
+    font-size: 36px;
+    box-sizing: border-box;
+}
+
+.fox {
+    height: 1072px;
+    background-color: rgb(34,37,51);
+}
+
+/*formato texto */
+
+.intro h2 {
+    font-size: 36px;
+    color: #2f2933;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.intro h3 {
+    color: #29d9c2;
+}
+
+.intro p {
+    font-family: 'Playfair Display', Serif;
+    font-size: 24px;
+    color: #a1b1bc;
+    font-weight: normal;
+}
+
+.even h2 {
+    color: #2f2933;
+}
+
+.even h3 {
+    color: #a1b1bc;
+}
+
+.even p {
+    color: #a1b1bc;
+}
+
+.odd p {
+     color: #fff;
+}
+
+.fox p {
+    color: #a1b1bc;
+}
+
+.white {
+    color: #fff;
+}
+
+.letra-s {
+    color: #56c0d3;
+}
+
+.point {
+    color: #29d9c2;
+    font-family: 'Lato', Serif;
+}
+
+.heart {
+    color: #29d9c2;
+}
+
+/*botones*/
+
+.btn {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Raleway', Serif;
+    text-transform: uppercase;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.btn-white:first-of-type {
+    margin-left: 0;
+}
+
+.btn-black {
+    border: none;
+    background-color: rgb(47,41,51);
+    color: #fff;
+    margin-left: 0;
+}
+
+.btn-blue {
+    border: none;
+    background-color: rgb(41,217,194);
+    color: #fff;
+    margin-left: 0;
+}
+
+.btn-border{
+    border: 1px solid #000;
+    color: #000;
+    margin-left: 0;
+}
+
+.btn-round {
+    border-radius: 5px;
+}
+
+/*fondos*/
+
+.odd {
+    background-color: rgb(102,205,223);
+}
+
+.love {
+     background-color: #a1b1bc;
+}
+
+.text-format {
+    width: 470px;
+}
+
+
+/*IDs*/
+
+#menu {
+    list-style-type:none;  
+    height:54px;       
+    font-size:13px;    
+    font-weight: bold;
+}
+
+#menu li {
+    display: inline;
+    height:30px;  
+    line-height:30px; 
+    margin: 0 30px;
+}
+
+#menu li:first-child {
+    color: #56c0d3;
+}
+
+#div-logo {
+    width: 200px;
+    float: left;
+}
+
+#div-menu {
+     width: 870px;
+     float: right;
+}
